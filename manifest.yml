@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: nai-vr-python
+  host: nai-vr-python
+  disk_quota: 1024M
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git#v1.5.5
